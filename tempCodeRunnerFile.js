@@ -14,7 +14,7 @@ const MyComponent = () => {
        <Appbar.Content title="내 주변 대피소 확인" />
       </Appbar.Header>
         <WebView
-          source={{ uri: 'http://localhost:3000/' }}
+          source={{ uri: 'http://localhost:3000/app/map' }}
           style={{ marginTop: 20 }}
         />
       <Portal>
